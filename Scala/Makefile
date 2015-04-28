@@ -1,5 +1,5 @@
 run: FizzBuzz.class
-	scala FizzBuzz
+	@scala FizzBuzz
 
 FizzBuzz.class: FizzBuzz.scala
 	scalac FizzBuzz.scala
