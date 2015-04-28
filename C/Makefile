@@ -1,5 +1,5 @@
 run: fizzbuzz
-	./fizzbuzz
+	@./fizzbuzz
 
 fizzbuzz: fizzbuzz.c
 	gcc -Wall fizzbuzz.c -o fizzbuzz
