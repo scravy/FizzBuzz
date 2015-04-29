@@ -1,10 +1,10 @@
-run:
-	cabal run
+run: dist/build/FizzBuzz/FizzBuzz
+	@./dist/build/FizzBuzz/FizzBuzz
 
-build:
+dist/build/FizzBuzz/FizzBuzz:
 	cabal build
 
 clean:
 	cabal clean
 
-.PHONY: run build clean
+.PHONY: run clean
