@@ -1,2 +1,4 @@
-runrun:
-	go run fizzbuzz.go
+run:
+	@go run fizzbuzz.go
+
+.PHONY: run
