@@ -1,7 +1,7 @@
 import sys
 
 def fizzbuzz(start, to):
-    for x in range(start, to + 1):
+    for x in xrange(start, to + 1):
         if x % 15 == 0:
             sys.stdout.write("FizzBuzz\n");
         elif x % 5 == 0:
